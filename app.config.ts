@@ -1,14 +1,16 @@
 export default defineAppConfig({
-  myLayer: {
-    name: 'Hello from Nuxt layer',
+  firebase: {
+    authCollection: 'auth',
+    otpTTL: 1000 * 60 * 5, // 5 minutes
   },
 });
 
 declare module '@nuxt/schema' {
   interface AppConfigInput {
-    myLayer?: {
+    firebase?: {
       /** Project name */
-      name?: string
+      authCollection?: string
+      otpTTL?: number
     }
   }
 }

@@ -1,5 +1,6 @@
 export default defineAppConfig({
-  myLayer: {
-    name: 'My amazing Nuxt layer (overwritten)'
-  }
-})
+  firebase: {
+    authCollection: 'auth-otp',
+    otpTTL: 1000 * 60 * 5, // 5 minutes
+  },
+});
