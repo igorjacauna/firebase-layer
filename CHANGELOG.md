@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.3
+
+[compare changes](https://github.com/igorjacauna/firebase-layer/compare/v0.0.2...v0.0.3)
+
+### 🚀 Enhancements
+
+- **auth:** Add OTP authentication ([16f9049](https://github.com/igorjacauna/firebase-layer/commit/16f9049))
+
+### ❤️ Contributors
+
+- Igor Jacaúna <igor.jacauna@gmail.com>
+
 ## v0.0.2
 
 
